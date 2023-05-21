@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Review Analysis</title>
+    <style>
+        body {
+        background-color: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyVreizb4hq2I-oqw4S8m6lPinDB-lzp_-thvIRcZVZdO3KivXNhtSTUA13mCEKRIZ5NQ&usqp=CAU);
+        background-repeat: no_repeat;
+        background-size: cover;
+        }
+    </style>
+</head>
+<body style="font-size:x-large;">
+<center>
+    <h1>Restaurant Review Analysis</h1>
+</center>
+    <form action="/get_data" method = 'post'>
+        <center>
+            <br><br><br><br>
+            
+            <label> Review</label><br><br>
+            <input type='text' name = 'html_data' required minlength="50" maxlength="150" size="150" width="150" aria-multiline="true"><br><br><br>
+            <input type="submit" value = "CUSTOMER SENTIMENT">
+        
+    </form><br><br>
+
+    <label></label>{{prediction}}
+</center>
+</body>
+<body>
+    
+</body>
+</html>
